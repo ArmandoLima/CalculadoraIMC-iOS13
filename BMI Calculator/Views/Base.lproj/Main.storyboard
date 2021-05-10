@@ -124,7 +124,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="heightLabel" destination="Xcz-1j-2c9" id="l21-1U-Bqg"/>
                         <outlet property="heightSlider" destination="Pky-qY-oVp" id="ije-wx-vuS"/>
+                        <outlet property="weightLabel" destination="LTF-aL-8qu" id="BcK-QO-dpB"/>
                         <outlet property="weightSlider" destination="s2X-C5-Zcz" id="2Ci-cg-YZ7"/>
                     </connections>
                 </viewController>
@@ -144,22 +146,22 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="I5P-Pc-Lq3">
-                                <rect key="frame" x="89" y="359.5" width="236" height="177.5"/>
+                                <rect key="frame" x="30.5" y="359.5" width="353" height="177.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="YOUR RESULT" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYX-DY-jNL">
-                                        <rect key="frame" x="0.0" y="0.0" width="236" height="42"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="SEU RESULTADO" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYX-DY-jNL">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="42"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="19.5" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VU9-2W-Sd5">
-                                        <rect key="frame" x="0.0" y="50" width="236" height="95.5"/>
+                                        <rect key="frame" x="0.0" y="50" width="353" height="95.5"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="80"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="EAT SOME MORE SNACKS!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9IV-CT-mxw">
-                                        <rect key="frame" x="0.0" y="153.5" width="236" height="24"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="COMA UM POUCO MAIS DE BESTEIRAS!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9IV-CT-mxw">
+                                        <rect key="frame" x="0.0" y="153.5" width="353" height="24"/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
